@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #EFEAE4;
+}
+
+#UIWrapper {
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='text'] {
+    background-color: #fff;
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+    margin:15px;
+}
+label {
+    font-size: 18px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}
+

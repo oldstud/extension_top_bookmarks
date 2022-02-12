@@ -1,0 +1,1 @@
+//background script (work with chrome events(for example:click on extension icon))
